@@ -1,0 +1,2 @@
+# use the TensorFlow fallback on platforms without a compatible LiteRT wheel
+ai-edge-litert==2.3.0; sys_platform == 'linux'

@@ -1,0 +1,899 @@
+{
+  "schema": "tinysr.migration.v1",
+  "entries": [
+    {
+      "source_family": "camera",
+      "source_relative_file": "board_c16_v63.py",
+      "source_sha256": "47c5df2bd58ddd61865e93b1a66d1b05f8e8d2bcaf67ee7a974084563890d8c9",
+      "disposition": "src/tinysr/camera/ and device/openmv/"
+    },
+    {
+      "source_family": "camera",
+      "source_relative_file": "board_c16_v64.py",
+      "source_sha256": "7a67d7c1ba0fdd143a47968539acf392a645e92bac289ea12499e542ef21f708",
+      "disposition": "src/tinysr/camera/ and device/openmv/"
+    },
+    {
+      "source_family": "camera",
+      "source_relative_file": "probe_rt1062_resources.py",
+      "source_sha256": "7e652fa7b0dcda78dcd4b6e08b25b6de2be66623dae5435e63f29ea5fd2e6f0f",
+      "disposition": "src/tinysr/camera/ and device/openmv/"
+    },
+    {
+      "source_family": "camera",
+      "source_relative_file": "requirements.txt",
+      "source_sha256": "ee461d650bfeb50c06d0af3203d5a2b768352cf950564e17eb9885a4ca48573b",
+      "disposition": "src/tinysr/camera/ and device/openmv/"
+    },
+    {
+      "source_family": "camera",
+      "source_relative_file": "run_autoface_fullframe.py",
+      "source_sha256": "140a39a426f8f31b3739c271e1d8561918ff745b9f12558dae6919e6f8d3dd1b",
+      "disposition": "src/tinysr/camera/ and device/openmv/"
+    },
+    {
+      "source_family": "camera",
+      "source_relative_file": "run_c16_fullframe.py",
+      "source_sha256": "2bec4d5291c794c9d994cfe94dfc1f287019e3fc40a345ae7ec3aef7576c2091",
+      "disposition": "src/tinysr/camera/ and device/openmv/"
+    },
+    {
+      "source_family": "camera",
+      "source_relative_file": "run_oncamera_composition.py",
+      "source_sha256": "b720ec7c7f711bf49675b3f3a24053fedabbe8fdddffc13286b37fe3a6ee21dd",
+      "disposition": "src/tinysr/camera/ and device/openmv/"
+    },
+    {
+      "source_family": "camera",
+      "source_relative_file": "tests/test_auto_v64.py",
+      "source_sha256": "abd30ec2c764ced6b3ffa532ea40fdd48b990b8acb84d45a817dd8b5ef40de95",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "camera",
+      "source_relative_file": "tests/test_composition.py",
+      "source_sha256": "add722a1c52bb67a47d2cc223869ac633ddbf748ec7e80002cbaffa620ec9e70",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "camera",
+      "source_relative_file": "tests/test_neural_v63.py",
+      "source_sha256": "09e3d563d4a0074907e04b4fcbf01da8b5e9037dcfb05af624ddda3638fff785",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "camera",
+      "source_relative_file": "tests/test_resource_probe.py",
+      "source_sha256": "505c2e9e8c83a70c7ed403833195c0974f5671b8c10d8ab52a65864f5b1274f0",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "camera",
+      "source_relative_file": "transport_v63.py",
+      "source_sha256": "eb463ae2c63613a69ff5e0a0b54dc93321b87c9d3334db22f7e618afdde79cba",
+      "disposition": "src/tinysr/camera/ and device/openmv/"
+    },
+    {
+      "source_family": "camera",
+      "source_relative_file": "transport_v64.py",
+      "source_sha256": "2de487f02d4848dc35e4e6e04cbb7f0aa321cfb55fea15140e18650a1c7fe96a",
+      "disposition": "src/tinysr/camera/ and device/openmv/"
+    },
+    {
+      "source_family": "camera",
+      "source_relative_file": "usbdbg.py",
+      "source_sha256": "1408b26f4e2a190dfc1c18df4536b31c55da1e0021a6f59e6dca09a5c11d7e8c",
+      "disposition": "src/tinysr/camera/ and device/openmv/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/configs/experiment0.json",
+      "source_sha256": "0e370ede858a7656cc770c12c6df241cd993b61beeb86110756caba9a290cc88",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/configs/experiment1.json",
+      "source_sha256": "b66e83f59954321c4ff20c5c4e8f9204414bdd053b8b981fb359bf538c0e9fc0",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/configs/experiment1_complementary.json",
+      "source_sha256": "a0ecbfc99410fb5deea76ca090a9f1b551d686464be48da391adda1ed8de0b2d",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/configs/experiment1_factorial.json",
+      "source_sha256": "87b38bed43c4b56ab5cb4f51be9ef81e577c57de9bccb559e47c288b96ddda3c",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/configs/experiment1_gpu_capacity.json",
+      "source_sha256": "14ed0fa1a87b254f4ff14ef631e15eada664c9e9d13fadd8311e18a2aa21946c",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/configs/experiment2_conversion.json",
+      "source_sha256": "09a6a45f5ff09b9c9212d7ffe2cc04ad2aa1aeafd6ed378f762232c0b4e92d3c",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/conversion_inputs_selected/residual_20k_c16_cpu_best.pt",
+      "source_sha256": "318f1331ef91263426072b3705ed6d3c729a04a354fc6dfc117c537e004d90f2",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/conversion_inputs_selected/residual_20k_c24_gpu_best.pt",
+      "source_sha256": "645d936e22a9ba2a0691b3b87e68166e50643f9a145e0f1c112b39061cf430c5",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/conversion_inputs_selected/residual_20k_c32_cpu_best.pt",
+      "source_sha256": "17c935490ce49a5da313a29673eeb74d55f9e910c821de6027164cff88d5a70d",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/data/manifests/exp1_factorial_4x_v1/pairs.json",
+      "source_sha256": "4aee2ea0645ebb75d8693605928a7575610a4b675f2c8a9fe05ab8956beed7c6",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/data/manifests/exp1_ffhq_4x_v1/pairs.json",
+      "source_sha256": "265fe73cd2f210ed77861ec57a2a63000a379ec76af9827d39d4fbf06a8d3df3",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/notes/gpu_capacity_design.md",
+      "source_sha256": "3096b6530a1368c7707d719b7ab98d9d5706c48ced10aced7c5d52f1ffd485b8",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/requirements-convert.txt",
+      "source_sha256": "bae5e03a97ebcb472b6c8dba4a5280e111c82696d8b5216b8c0647469b1c78ea",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/requirements-exp1.txt",
+      "source_sha256": "c9982c6bb015777b43548f94f1e71c3a5ae601e63ebe876cc136033f1e12c203",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/requirements-gpu-capacity.txt",
+      "source_sha256": "a088d2af75da555a6a16cbe7dc16fda30d8741c8c7989d7ed0f5a33192448737",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/requirements.txt",
+      "source_sha256": "020acb4594ce2f2578aaaf1df2e3c9f8e0b9ef2b14e22006164f763f9bb62046",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/common.py",
+      "source_sha256": "278ba3ace0be3c3764e011d040a5f378443a241c8c34c1d13d293277305523d4",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/comp_common.py",
+      "source_sha256": "6432e6051ee03ea7a16e31a527d9cf53a7a683008f1f78a7a7f684b45bd01b27",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/comp_report.py",
+      "source_sha256": "1dacd0be30894576cdee1e465fb0dadf2a68e7196d0109578af449269ecc0ed1",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/comp_run_all.py",
+      "source_sha256": "170053d93d101b037714bbf289a61269e9a022b16edc96c216e5903c5027a6c2",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/comp_train.py",
+      "source_sha256": "612c2459e0c61f6c3cfd477a8559f56bec7a015a8095ede62c139c50aa8c0ea5",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/download_ffhq.py",
+      "source_sha256": "6a1235186447319c0d1e308c64edad056a19651fbe6aa87e810f77b1ae2f8c8c",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/evaluate_baselines.py",
+      "source_sha256": "3992779dac1eed58a98aadf118a2fad1a0e4861dc51fef788f598a2a0e730648",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/exp1_archive.py",
+      "source_sha256": "02a06c5d7a14b11c98fa098d8936cb7fdfddd8b246aa2be154e7e9c3352b6fca",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/exp1_common.py",
+      "source_sha256": "938de78cd1aad4895ffe8b20d2df7c921076377a53dea05ac6dc72bf21a963c5",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/exp1_data.py",
+      "source_sha256": "9d77cf16ea21e5ccd4fd2f459f6772ab42d63f7f147a27cc744e3dd892a48b95",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/exp1_eval.py",
+      "source_sha256": "d85bc4b272989a7dd3c20c622a05af388213f87716729f20e5588eb8dff3f822",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/exp1_expand.py",
+      "source_sha256": "68f8d563e981425368803486d5937a63607b9b087766576a0dfc2a0fd20c53e7",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/exp1_models.py",
+      "source_sha256": "b0fafa5531a7a79311c67a36f57cc39a10fab0004df9dcd07dd2f0eeeaa65e70",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/exp1_train.py",
+      "source_sha256": "99b9889de52753888c472724e648e74f6b0b1fc42b7a997fadf7ea12760537f1",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/exp1_verify.py",
+      "source_sha256": "6894b2435a5cdaedf2281ce25ab8d0a6648692e9b22f7f978e387ae9d5037c00",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/exp2_bridge.py",
+      "source_sha256": "fc624c46b54bf62448cad3473e5f14b5703744066ca698d1cf6fab383b05bfa2",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/exp2_common.py",
+      "source_sha256": "2ad5c61a59d1617186999cc21e53c78bbeba7c5df5a9f7dbf5eb870e18d7fa20",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/exp2_convert.py",
+      "source_sha256": "184d2f7c3ce3d43ccfe34baf23b106f965d89c8e15435ee70d1c14af631cfb57",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/exp2_reference_models.py",
+      "source_sha256": "b0fafa5531a7a79311c67a36f57cc39a10fab0004df9dcd07dd2f0eeeaa65e70",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/exp2_selfcheck.py",
+      "source_sha256": "cefd801e364fb8ee9fe4168852f27b5763c7e152f48a4fa0ce8d55039e3d7a83",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/gpu_bundle_results.py",
+      "source_sha256": "840c7447fa7832c71c9005d0096e56858768d00dd3d2fcdca11b20346aaa013f",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/gpu_common.py",
+      "source_sha256": "890073bc1435aa1c6034af402c37bb1ce09e8ea9be85482811272cf71fe21644",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/gpu_device.py",
+      "source_sha256": "01e86e46604035b36bbc103982b737d460ab90abcee68f93f91655a28154dc9d",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/gpu_evaluate.py",
+      "source_sha256": "eae038b8646af21f7cb62816e7da788cf239cd39ca47c21e343c6c7b37112912",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/gpu_record_plan.py",
+      "source_sha256": "2ad2fa07cc6902f3016817b9d91a5a76c99c1a11d23540295fc921e7c59eec35",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/gpu_report.py",
+      "source_sha256": "d451bdaac5340e0e084442a63b728a4a7b10af7ec47ec52454e5e095b4c9b64b",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/gpu_run_all.py",
+      "source_sha256": "ccfccbd28a397928ecadb2742a26e264687238da02f4b38afa99bd6e303fdbb1",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/gpu_train.py",
+      "source_sha256": "e4a0e803f9f378e4fa6646246b80dc0266be5792caf4f1c17af0778dedaecbb0",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/gpu_visuals.py",
+      "source_sha256": "776ba526793bdb4a1eafa622d38ce4071dd23fd204fd48d886f4a226e1294363",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/inspect_ffhq_store.py",
+      "source_sha256": "0f8b79be74e9f202a683be0a3077b7dd67cc7c8f4f3460b863a69da186989f9a",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/prepare_pairs.py",
+      "source_sha256": "f9c35af9f47f1047fef292350e32c467d3593c2981560e9b9ffbf3ea2cae365c",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/record_report_loader_fix.py",
+      "source_sha256": "b3c47f854bb85b6464382862acd9882ffaadfc3ae9792f36638ae885af3c3730",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/select_ffhq.py",
+      "source_sha256": "08a053f3bca8588ebbc53fa7eae4c032951dbd3849b9cfeb0ca859881a646f48",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/study_common.py",
+      "source_sha256": "99f6034d936946e0da2d7f79ad7639ad36c180863f4253c92f643e6c8bdd22d6",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/study_data.py",
+      "source_sha256": "b761d1c2f33a157e9f37910f313c487266e27f6ab134030adfbea188a2194040",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/study_eval_all.py",
+      "source_sha256": "806231b31792c8fe01de0a8bb14266e1afe9e4b731438c4015c8441735502d7f",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/study_evaluate.py",
+      "source_sha256": "ac35adee974bd4612b5ae33a9239bdcd4dc59946d36caec8aa0ee638888b4517",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/study_expand.py",
+      "source_sha256": "038a55c4e0f6c5aed86115ca129c578fa27792e39570c47e881e1e1e40ecabed",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/study_report.py",
+      "source_sha256": "500c525354678206c9cba92cd2c57fa610877ec8aa0ff3b582c668bfdc63fbe9",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/study_run_all.py",
+      "source_sha256": "ed15593df61822cc0afdb888af05613dd04c8d7b38dbf85e3081fa273ce35b8f",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/study_train.py",
+      "source_sha256": "5f1b269e99c31a991d89a522f394fe24858df2e5903b9ed1ac76d82d30301f12",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/study_verify.py",
+      "source_sha256": "2203242e4c1cbf0380406ee1ef05fb7d333505c8f2fd22734fed8792a43616b1",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/scripts/verify_experiment0.py",
+      "source_sha256": "132e06b7cb22f58809b51502c5f5591c880fca3020162228e6c87626c171f904",
+      "disposition": "src/tinysr/training/ and data/ and conversion/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/tests/test_checkpoint_loading.py",
+      "source_sha256": "6c71251cfd81000aedf1fda8d57137c0b9ed15e6852137e53e7f5c6b472d1bd1",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/tests/test_comp.py",
+      "source_sha256": "47815a6b83b9789a22f04c6a8c7b3765c17003e45b53022ec322600088f9a7c7",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/tests/test_comp_report.py",
+      "source_sha256": "23133c1627771f892971c6b0389fc20b908955251b0c54d4e00b1e0c3809ae44",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/tests/test_exp1.py",
+      "source_sha256": "78e4318ad227419d7ca7e95789012a676edaefa568c62e0491e93b293e5992a5",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/tests/test_gpu_capacity_cuda.py",
+      "source_sha256": "ca7d4df9f5fcf2eeff7bdbc4637822d7336b89153c5a383f8f35a5a69f494055",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/tests/test_gpu_capacity_offline.py",
+      "source_sha256": "bbe515a155751af9a8313c2049faaf8ff73b6a5cce31635f1470209eb255a01a",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/tests/test_pipeline.py",
+      "source_sha256": "3fe7607096ccb4a4bc71ee1d97f484f6095a0d96534872143073f250aa4c5110",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "baseline_original/tests/test_study.py",
+      "source_sha256": "7d6efa9a49e2caccfca51aac286368bd942b3c95858d078c3cdbf4d92a45bf3f",
+      "disposition": "data/manifests/ or external historical evidence"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "check_package.py",
+      "source_sha256": "6754baaf91406a9d18e48b30b89992f0cb73d80ce7273c7eea8360bdd703ac86",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "docs/BASELINE_FINDINGS.md",
+      "source_sha256": "a5e11357f57deaa317345c5e6fde25e476b07ddb5d5762665f3a423453c3b1b4",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "docs/RESEARCH_AND_EXPERIMENTS.md",
+      "source_sha256": "b79868827c03ac0c281ab42b9b366d7b2524a66be23cbf6135ba55f4ee9d3713",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "freeze_scenes.py",
+      "source_sha256": "18cf787481ba0034f2920cf4a001af61d78f45d13ec970adde6db9e9722adfe5",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "models/c16/best.pt",
+      "source_sha256": "318f1331ef91263426072b3705ed6d3c729a04a354fc6dfc117c537e004d90f2",
+      "disposition": "models/baselines/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "models/c16/residual_fp32.tflite",
+      "source_sha256": "eb98cd284375be2e57d50613c2dd39ceb8d9262914f00e2eed88e215f9b3738a",
+      "disposition": "models/baselines/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "models/c16/residual_int8.tflite",
+      "source_sha256": "e496468a7fc52763ba1011fe56ad98a5a7a5294df2b10293cc7c7f48072188a9",
+      "disposition": "models/baselines/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "models/c24/best.pt",
+      "source_sha256": "645d936e22a9ba2a0691b3b87e68166e50643f9a145e0f1c112b39061cf430c5",
+      "disposition": "models/baselines/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "models/c24/residual_fp32.tflite",
+      "source_sha256": "a6a02978591c975a72197fc511f7d412888ee9b721626f05e64e953a327c3b34",
+      "disposition": "models/baselines/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "models/c24/residual_int8.tflite",
+      "source_sha256": "dd55324f7f4834b4f24d7c6eeed9402b225f166b05c93bec19423e2324924f23",
+      "disposition": "models/baselines/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "models/c32/best.pt",
+      "source_sha256": "17c935490ce49a5da313a29673eeb74d55f9e910c821de6027164cff88d5a70d",
+      "disposition": "models/baselines/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "models/c32/residual_fp32.tflite",
+      "source_sha256": "0fb81c6cc6e1a73bf0e5403066875e82b2529514da138b8baf3c58c1c1043f6d",
+      "disposition": "models/baselines/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "models/c32/residual_int8.tflite",
+      "source_sha256": "e708afb3f37b30a8d708b16e9865ce72fcd2ae905d7fa6df2f73aff6aa90cf4b",
+      "disposition": "models/baselines/"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "models/manifest.json",
+      "source_sha256": "4fa36ea11b9affe916c937ff03035d219ef74f531fb05be37e0cd897df560182",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "prune_baseline.py",
+      "source_sha256": "55bb9f6ed6b082a72eed0a9307b575892e2ef69553cafa172273d8df5b09fee0",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "reproduce_conversion.py",
+      "source_sha256": "f964a74c1f3188de7d134313ede5f6a86bfa8e8200a551258963c351bce1070d",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "requirements-eval.txt",
+      "source_sha256": "ad25d352eb9da99aa4e2eea2303f16c7ffccc1eb3644964daba6cf55b571e74f",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "requirements-litert-linux.txt",
+      "source_sha256": "3e6d1f927f678e551e1f8a2027ee7863c5efcc18b2c65257eb66473d3faf9885",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "run_track2.py",
+      "source_sha256": "0763c4ec9e2d23c5c111ccd92cef2791735cb8b18333702ee914241683f1f916",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "score_detections.py",
+      "source_sha256": "46fb9f007a6b01297cc582f4540e8467e065d5c5dc68b713fd9d6502f489b394",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "tests/test_track2.py",
+      "source_sha256": "4ddd62f492bf53729ec7464b778bfdcd0d93041c54d5dad1675f783cb6dcc41f",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "tinysr2/__init__.py",
+      "source_sha256": "27fb786c754789c52a9f979300af5416ba0d0cd9bd6d30ac68a926cdc8364e9e",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "tinysr2/compare.py",
+      "source_sha256": "4868b8da9cb6eca5dedc31213d1e0d51beaac759fc0d640612ed9f7b60dc9b97",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "tinysr2/core.py",
+      "source_sha256": "1810f8b17c8238286f84689db43f585e4bf2bd5a8d51b3e99cccbefe4d331acd",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "tinysr2/geometry.py",
+      "source_sha256": "a9343aa7a2af910af6d5032bdb09f650e6ae096a1a0b4dba65b395377685574a",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "tinysr2/pruning.py",
+      "source_sha256": "693f1eb0f6a5fa21a0ec2b3122716b016092b79e59deca744df84b16ab47e590",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "tinysr2/reference_model.py",
+      "source_sha256": "b0fafa5531a7a79311c67a36f57cc39a10fab0004df9dcd07dd2f0eeeaa65e70",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "desktop",
+      "source_relative_file": "tinysr2/verify.py",
+      "source_sha256": "96ab944ebffc6c638230beeee01938dab512b0376f54986309a520751aff7a4f",
+      "disposition": "src/tinysr/ maintained capability modules"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "cascades/LICENSE_HAAR_DATA.txt",
+      "source_sha256": "20b4999169cd1b519c6f244393764cceb7230bb0f7bf63708c1df088ccc926ff",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "cascades/haarcascade_frontalface_alt.cascade",
+      "source_sha256": "27e2a4d53e8c422505ec98732123d7c4288d705958c4be2ae5eeb49bbea3de06",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "cascades/haarcascade_frontalface_default.cascade",
+      "source_sha256": "369409a04ff702728105256f8575919363334c681cae90c3744641306a1aa1db",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "cascades/manifest.json",
+      "source_sha256": "4cfb0dbe8054160a5c2bf98e17d9e94d668d998f9ae488559f9c0f14ae06fef3",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "combine_detection.py",
+      "source_sha256": "66000e08f60e3e840a8ac4a10c00986352b29ada4f33a341a248b6bf7eee4bc2",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "convert_haar.py",
+      "source_sha256": "efe9536c8a8dfdb7a438dcd1f17471b80d3865a240511062eec0305ca9a0e512",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "device_code.py",
+      "source_sha256": "97461515f4e324a3457785880ff6f313bf1037e7d23d12412330ca98d294fe5b",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "diagnose_custom_haar_oncamera.py",
+      "source_sha256": "49872b0d177f27642cd44ff588f8d314bce6f8921d750ea6ee11e1fe898d4615",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "diagnose_detection.py",
+      "source_sha256": "49d720ad923e199e50cb1208081602a27382c9cdf8c4eb6a8547be0f2215f059",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "diagnose_fomo_oncamera.py",
+      "source_sha256": "1f4860812b37c79280eb733ee198393ba36ebfe69aacf83b0306f6bdc7ef45b0",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "diagnose_host_detection.py",
+      "source_sha256": "5f02f87d02f9b291dca5245b1df4b5fc08a314228ac8edf0e928522924abce34",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "diagnose_native_grayscale.py",
+      "source_sha256": "5efbb2945c1989e824fea7c85b9db600559da09e942033eca2582f7559862075",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "evaluate_quality.py",
+      "source_sha256": "c587b5fa0b13d22f8d7f68ff79d4c6a7facd89f4450f9eeafb6cbed562fdccac",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "face_detection.py",
+      "source_sha256": "4c8b41f1a35fc17d3b1290fcf9bfab741749c4b00e9acbd04355fc6dbfa0cc98",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "geometry.py",
+      "source_sha256": "a9343aa7a2af910af6d5032bdb09f650e6ae096a1a0b4dba65b395377685574a",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "install_cascades.py",
+      "source_sha256": "adb6a56b91f447cdf7fb8659e2106dfee3b366258a867b15cba60a2a359c1be1",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "locate_models.py",
+      "source_sha256": "e2a8b9623b477f2d2899754c92a10d18a827a9d6d7c6a579f77c4ffaf55adca0",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "probe_cascade_storage.py",
+      "source_sha256": "b14eaeb568f87fdc011524725e54c6c085bac896f6d413bdbc8302c2d0324438",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "probe_residual.py",
+      "source_sha256": "dec4f1e3da06734d3e3276a0ac3bd14e71d39e4f932b484761d1037739459eac",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "probe_transport.py",
+      "source_sha256": "d17b6d89e0069ad7e398d1e29efb264d9ebf6edd0dd9be5ce2cb6a7c4f225e30",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "repack.py",
+      "source_sha256": "19e0eabb599fa6ac71fc6eae1fe222d19b57a06d2516f92cdd4091bc85288bdb",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "requirements-host-detection.txt",
+      "source_sha256": "a920e599eec401ff59cdd815a8efd05aa70450b81a08bae78279b8092e7088e6",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "requirements-quality-torch.txt",
+      "source_sha256": "3a97ad95d927c33f93832fda9b0e8c6873cc843ffefe32d07aea6dbd0e83299a",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "requirements.txt",
+      "source_sha256": "8a8db39e1571f89f74d64edd4cb9e96d5cbc44c3fb64df35888d2e0b517d211b",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "run_tinysr.py",
+      "source_sha256": "a6e036acfee1147dd89560a53b409529d24349a67687dc51c9be6375050d900e",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "summarize_detection.py",
+      "source_sha256": "f833f9def2d9535a597b367a80f37231192143078ca859edbc47436bbb811a2c",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "tests/simulated_board.py",
+      "source_sha256": "26b2af93dcfad351dde57ce3b365b6cd3ac740c1083663e0dcc212500f313288",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "tests/test_cascade_root_fix_v5_5_3.py",
+      "source_sha256": "716aab443d9a0fe3af870e4fa0bc01b707118c2a78699110bc1bd3546ae7f966",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "tests/test_custom_haar_transport_v5_5_1.py",
+      "source_sha256": "471cb6a577f7cc9da9a302e94338a3fa30c8c72636aaf56c0029a1168d053027",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "tests/test_custom_haar_v5_5.py",
+      "source_sha256": "da616af1332f655d18b7c59a35b443e5beed6fa90856f21866bdec21183ece73",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "tests/test_detection_diagnostic_v5_1.py",
+      "source_sha256": "35705057725637e0ad6090dade43f9d0a7c9100d4ad19d9620c2ace9b1b3399c",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "tests/test_fomo_v5_4.py",
+      "source_sha256": "2a657da4563c7cc3f5e01c2ddca9a1350ac08b3d058f06df94660abc3620df99",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "tests/test_host_detection_v5_2.py",
+      "source_sha256": "428aa948deb72481ebe1e0ce6a61f1c5ab48d9fa325d11af763b9ed800d79a39",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "tests/test_integration.py",
+      "source_sha256": "0e9d16e75090f997b652805d20fb8fb64c3cfaf9f2b2666175d425f213a5cfec",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "tests/test_native_gray_v5_3.py",
+      "source_sha256": "20c2e697952bc5743388217519322ddd8c317f627b92e7e10e3714401783022a",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "tests/test_phase_v5.py",
+      "source_sha256": "ce70f2dcc68797839e42753eccb9dfdd643c758f673a5ba28fd8fc582241a450",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "tests/test_residual_v4.py",
+      "source_sha256": "449a7879eaf8533f7586789fecbd145d9b680441b87c6af1f8bf7904cb8569b1",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "tests/test_storage_probe_v5_5_2.py",
+      "source_sha256": "b4da7f1128dce0606eb0265b273cd075a883a3df8d2f32472c8c553b21c4b3b9",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "tests/test_transport_v3.py",
+      "source_sha256": "c21f0632921bec065eead127fb4a048bdb520313954c31d0a57de73a6d511341",
+      "disposition": "tests/ behavioral coverage or retired obsolete diagnostic tests"
+    },
+    {
+      "source_family": "detector",
+      "source_relative_file": "usbdbg.py",
+      "source_sha256": "1408b26f4e2a190dfc1c18df4536b31c55da1e0021a6f59e6dca09a5c11d7e8c",
+      "disposition": "conversion/haar.py or technical findings; obsolete diagnostic retired"
+    }
+  ]
+}

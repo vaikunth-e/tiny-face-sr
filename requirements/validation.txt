@@ -1,0 +1,4 @@
+# exact versions used for migration checks, not a personal environment inventory
+numpy==2.5.4
+Pillow==12.3.0
+scikit-image==0.26.0

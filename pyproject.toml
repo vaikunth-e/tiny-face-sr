@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tinysr"
+version = "1.0.0"
+description = "Face-aware image super-resolution research and OpenMV integration"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "Pillow>=10,<13"]
+
+[project.optional-dependencies]
+camera = ["pyserial>=3.5,<4"]
+metrics = ["scikit-image>=0.22,<1"]
+convert = ["tensorflow>=2.16,<3"]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+tinysr = "tinysr.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"tinysr.device.openmv" = ["*.py"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["runtime: requires installed PyTorch and TFLite runtimes"]

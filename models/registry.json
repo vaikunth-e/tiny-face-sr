@@ -1,0 +1,92 @@
+{
+  "version": "1.0.0",
+  "models": [
+    {
+      "id": "C16",
+      "channels": 16,
+      "source_step": 25000,
+      "artifacts": {
+        "best.pt": {
+          "path": "models/baselines/c16/best.pt",
+          "sha256": "8b05a3dd5e865f551c9254253ed1851c61245360910207dfc02a0423cd9cb435",
+          "bytes": 26979,
+          "original_sha256": "318f1331ef91263426072b3705ed6d3c729a04a354fc6dfc117c537e004d90f2"
+        },
+        "residual_fp32.tflite": {
+          "path": "models/baselines/c16/residual_fp32.tflite",
+          "sha256": "eb98cd284375be2e57d50613c2dd39ceb8d9262914f00e2eed88e215f9b3738a",
+          "bytes": 25872,
+          "original_sha256": "eb98cd284375be2e57d50613c2dd39ceb8d9262914f00e2eed88e215f9b3738a"
+        },
+        "residual_int8.tflite": {
+          "path": "models/baselines/c16/residual_int8.tflite",
+          "sha256": "e496468a7fc52763ba1011fe56ad98a5a7a5294df2b10293cc7c7f48072188a9",
+          "bytes": 11152,
+          "original_sha256": "e496468a7fc52763ba1011fe56ad98a5a7a5294df2b10293cc7c7f48072188a9"
+        }
+      },
+      "semantics": "normalized_rgb_residual",
+      "lr_halo": 3,
+      "scale": 4,
+      "checkpoint_metadata": "sanitized; learned tensors unchanged"
+    },
+    {
+      "id": "C24",
+      "channels": 24,
+      "source_step": 25000,
+      "artifacts": {
+        "best.pt": {
+          "path": "models/baselines/c24/best.pt",
+          "sha256": "df8fcbe7cdd9422076f0c38026d9c456896987e328da1f288e93507910cf2082",
+          "bytes": 52387,
+          "original_sha256": "645d936e22a9ba2a0691b3b87e68166e50643f9a145e0f1c112b39061cf430c5"
+        },
+        "residual_fp32.tflite": {
+          "path": "models/baselines/c24/residual_fp32.tflite",
+          "sha256": "a6a02978591c975a72197fc511f7d412888ee9b721626f05e64e953a327c3b34",
+          "bytes": 51408,
+          "original_sha256": "a6a02978591c975a72197fc511f7d412888ee9b721626f05e64e953a327c3b34"
+        },
+        "residual_int8.tflite": {
+          "path": "models/baselines/c24/residual_int8.tflite",
+          "sha256": "dd55324f7f4834b4f24d7c6eeed9402b225f166b05c93bec19423e2324924f23",
+          "bytes": 18184,
+          "original_sha256": "dd55324f7f4834b4f24d7c6eeed9402b225f166b05c93bec19423e2324924f23"
+        }
+      },
+      "semantics": "normalized_rgb_residual",
+      "lr_halo": 3,
+      "scale": 4,
+      "checkpoint_metadata": "sanitized; learned tensors unchanged"
+    },
+    {
+      "id": "C32",
+      "channels": 32,
+      "source_step": 25000,
+      "artifacts": {
+        "best.pt": {
+          "path": "models/baselines/c32/best.pt",
+          "sha256": "c3356c6168e72654e2267c4a2c1c94891b562b721f01eda0939d5c7383c753a5",
+          "bytes": 87267,
+          "original_sha256": "17c935490ce49a5da313a29673eeb74d55f9e910c821de6027164cff88d5a70d"
+        },
+        "residual_fp32.tflite": {
+          "path": "models/baselines/c32/residual_fp32.tflite",
+          "sha256": "0fb81c6cc6e1a73bf0e5403066875e82b2529514da138b8baf3c58c1c1043f6d",
+          "bytes": 86160,
+          "original_sha256": "0fb81c6cc6e1a73bf0e5403066875e82b2529514da138b8baf3c58c1c1043f6d"
+        },
+        "residual_int8.tflite": {
+          "path": "models/baselines/c32/residual_int8.tflite",
+          "sha256": "e708afb3f37b30a8d708b16e9865ce72fcd2ae905d7fa6df2f73aff6aa90cf4b",
+          "bytes": 27520,
+          "original_sha256": "e708afb3f37b30a8d708b16e9865ce72fcd2ae905d7fa6df2f73aff6aa90cf4b"
+        }
+      },
+      "semantics": "normalized_rgb_residual",
+      "lr_halo": 3,
+      "scale": 4,
+      "checkpoint_metadata": "sanitized; learned tensors unchanged"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# install torch separately using the appropriate CPU or CUDA wheel index
+numpy>=1.26,<3
+Pillow>=10,<13
+scikit-image>=0.22,<1
+pyserial>=3.5,<4

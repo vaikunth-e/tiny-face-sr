@@ -1,0 +1,5 @@
+{
+  "variant": "residual", "channels": 16, "blocks": 2, "scale": 4,
+  "steps": 6000, "batch_size": 16, "validation_every": 1000, "seed": 1337,
+  "lr_schedule": [{"start": 1, "learning_rate": 0.001}]
+}
