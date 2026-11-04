@@ -156,7 +156,7 @@ git diff --cached --stat
 
 Run the checks supplied with the patch before committing. If the base differs, resolve the change deliberately rather than forcing it. A normal revert can undo a committed update without deleting local datasets or results. This describes patch mechanics; branch/review conventions belong to the collaborating group.
 
-The repository contains no contributor workflow document. Technical state lives in `CONTEXT.md`; detailed evidence lives in `docs/history/`. Remove obsolete source and temporary investigations after preserving their technical findings. Retain useful regression coverage. Keep personal records, dates, local settings and environment inventories out of tracked files and release contents.
+Technical state lives in `CONTEXT.md`; detailed evidence lives in `docs/history/`. Remove obsolete source and temporary investigations after preserving their technical findings. Retain useful regression coverage. Keep personal records, dates, local settings and environment inventories out of tracked files and release contents.
 
 ## Source map
 
