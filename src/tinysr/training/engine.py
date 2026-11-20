@@ -149,6 +149,26 @@ def train(config, manifest, data_root, output, device="cuda", stop_at=None):
     torch.use_deterministic_algorithms(True)
     model_cfg = {k: cfg[k] for k in ("variant", "channels", "blocks", "scale")}
     model = TinySR(**model_cfg).to(device)
+    
+    # below is the identity aware training configuration
+    # lambda_id = float(cfg.get("lambda_id", 0.0))
+    
+    # if lambda_id < 0:
+    #     raise ValueError("lambda_id cannot be negative")
+    
+    # face_model = None
+    
+    # if lambda_id > 0:
+    #     from facenet_pytorch import InceptionResnetV1
+    
+    #     face_model = InceptionResnetV1(
+    #         pretrained="vggface2"
+    #     ).eval().to(device)
+    
+    #     # Freeze FaceNet weights
+    #     for param in face_model.parameters():
+    #         param.requires_grad_(False)
+
     optimizer = torch.optim.Adam(model.parameters())
     sampler = BatchOrder(len(training), cfg["seed"] + 17)
     code_hashes = {
@@ -211,6 +231,30 @@ def train(config, manifest, data_root, output, device="cuda", stop_at=None):
         model.train()
         optimizer.zero_grad(set_to_none=True)
         loss = torch.nn.functional.l1_loss(model(low, base), high)
+
+        # below is the loss funtion for idetity training
+        # # generate super resolved image
+        # prediction = model(low, base)
+        
+        # # original reconstruction loss
+        # recon_loss = torch.nn.functional.l1_loss(
+        #     prediction, high
+        # )
+        
+        # # add identity supervision when enabled
+        # if face_model is not None:
+        #     from tinysr.training.identity import identity_loss
+        
+        #     id_loss = identity_loss(
+        #         prediction, high, face_model
+        #     )
+        
+        #     loss = recon_loss + lambda_id * id_loss
+        # else:
+        #     id_loss = None
+        #     loss = recon_loss
+
+        
         if not torch.isfinite(loss):
             raise ValueError("Nonfinite training loss")
         loss.backward()
