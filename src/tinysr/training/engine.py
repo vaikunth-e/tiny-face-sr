@@ -150,7 +150,7 @@ def train(config, manifest, data_root, output, device="cuda", stop_at=None):
     model_cfg = {k: cfg[k] for k in ("variant", "channels", "blocks", "scale")}
     model = TinySR(**model_cfg).to(device)
     
-    # below is the identity aware training configuration
+    # change 1: below is the identity aware training configuration
     # lambda_id = float(cfg.get("lambda_id", 0.0))
     
     # if lambda_id < 0:
@@ -216,7 +216,25 @@ def train(config, manifest, data_root, output, device="cuda", stop_at=None):
     elif output.exists():
         raise FileExistsError("Existing output has no resumable checkpoint")
     else:
+
+        # change 2: start from the pretraied C32 model 
+        # init_checkpoint = cfg.get("init_checkpoint")
+    
+        # if init_checkpoint:
+        #     saved = torch.load(
+        #         init_checkpoint,
+        #         map_location="cpu",
+        #         weights_only=True
+        #     )
+    
+        #     if saved["model_config"] != model_cfg:
+        #         raise ValueError("Checkpoint architecture mismatch")
+    
+        #     model.load_state_dict(saved["model_state"])
+        #     print("Pretrained model loaded!")
+        
         output.mkdir(parents=True)
+        
     target = cfg["steps"] if stop_at is None else stop_at
     if not 1 <= target <= cfg["steps"]:
         raise ValueError("Stop update is outside training budget")
@@ -230,6 +248,8 @@ def train(config, manifest, data_root, output, device="cuda", stop_at=None):
         ]
         model.train()
         optimizer.zero_grad(set_to_none=True)
+
+        # change 3: replace this with the one below
         loss = torch.nn.functional.l1_loss(model(low, base), high)
 
         # below is the loss funtion for idetity training
